@@ -1,0 +1,476 @@
+/* Define Custom Fonts */
+@font-face {
+    font-family: 'Arcade Classic';
+    src: url('Assets/Fonts/ArcadeClassic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orange Kid';
+    src: url('Assets/Fonts/OrangeKid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Byte Bounce';
+    src: url('Assets/Fonts/ByteBounce.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Text alignment utility classes */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Margin and padding utility classes */
+.m-0 {
+    margin: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+/* Visibility utility classes */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+                    /*WEBSITE ELEMENTS*/
+
+:root{
+    --bg-color: #242424;
+    --wText-color: white;
+    --bText-color: black; 
+    --yellow-color: #FFD966;
+    --purple-color: #9747FF;
+    --lightpurple-color: #E4CCFF;
+}
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--bText-color);
+}
+
+/* Intro Section*/
+.intro{
+    /*width: 1394px; */
+    height: 604px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #47ffa9"
+}
+
+.intro_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/*Navigation Bar(Complete)*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: auto;
+}
+
+.navbar{    
+    background: #242424;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 600px;
+    margin-top: -500px;
+    padding: 0 30px;
+}
+
+#navbar_logo{
+    color: #FFFFFF;
+}
+
+.fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar_links{
+    color: #ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-family: 'Arcade Classic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    margin-right: 30px;
+}
+/*Intro Section ()*/
+.IntroRec{
+    background-color: var(--purple-color); 
+    height: 530px;
+    width: 1379px; 
+    margin-left: -130px;
+    margin-top: -390px;
+    right: 30px;
+
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    z-index: 0;
+}
+
+/*CV (Complete)*/
+.CV_link{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    font-family: 'Orange Kid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px; 
+    line-height: 100%;
+    margin-top: -100px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.CvRec{
+    background-color: var(--yellow-color);
+    height: 109px; 
+    left: 0px;
+    top: 0px;
+    border-radius: 13px;
+    z-index: 1;
+    position: relative;
+}
+/*Hello (Complete)*/
+.HelloTxt{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    font-family: "ByteBounce"; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px; 
+    line-height: 135px;
+    margin-left: -2550px; 
+    margin-top: -250px; 
+    z-index: 1;
+    position: relative;
+}
+
+.HelloRec{
+    background-color: var(--lightpurple-color); 
+    height: 246px;
+    width: 649px; 
+    left: 0px; 
+    top: 0px; 
+    border-radius: 13px;
+    z-index: 1;
+    position: relative;
+    margin-left: -1275px;
+    right: 30px;
+}
+/*Profile Picture ()*/
+.Profilepic{
+    width: 480px; 
+    height: 548px; 
+    left: 850px; 
+    top: 31px; 
+    position: absolute;
+}
+.ProfileCir{
+    width: 480px; 
+    height: 548px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #421313; 
+    border-radius: 9999px;
+    z-index: 0;
+}
+.ProfileImg{
+    width: 969px;
+    height: 773px; 
+    left: 0px; 
+    top: 0px; 
+    object-fit: cover;
+    position: absolute; 
+    border-radius: 386.5px;
+    z-index: 1;
+}
+
+
+/* About Me Section (Complete)*/
+.AboutTitle{
+    position: absolute;
+    width: 236px;
+    height: 60px;
+    left: 74px;
+    top: 726px;
+    font-family: 'Arcade Classic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 60px */
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+}
+
+.AboutRec {
+    position: absolute;
+    width: 1394px;
+    height: 528px;
+    left: 21px;
+    top: 792px;
+    background: #9747FF;
+    border-radius: 6px;
+}
+
+.AboutTxt {
+    position: absolute;
+    width: 1345px;
+    height: 528px;
+    left: 39px;
+    top: 792px;
+    font-family: 'Orange Kid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    /* or 60px */
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+}
+
+/* Let's Talk ()*/
+.TalkTitle{
+    position: absolute; 
+    width: 289px; 
+    height: 60px; 
+    left: 53px; 
+    top: 1730px; 
+    font-family: Arcade Classic; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px; 
+    line-height: 60px; 
+    letter-spacing: -0.011em;
+    color: white; 
+}
+.TalkRec{
+    position: absolute; 
+    width: 1370px; 
+    height: 921px; 
+    left: 30px; 
+    top: 1680px; 
+    background: #9747FF; 
+    border-radius: 4px
+
+}
+.NameRec{
+    width: 594px; 
+    height: 84px; 
+    left: 50px; 
+    top: 1735px; 
+    position: absolute; 
+    background: var(--lightpurple-color); 
+    border-radius: 13px
+}
+
+.EmailRec{
+    position: absolute;
+    width: 659px; 
+    height: 84px; 
+    left: 500px; 
+    top: 1735px; 
+    background: light var(--lightpurple-color); 
+    border-radius: 13px
+}
+
+.SubmittRec{
+    position: absolute; 
+    width: 424px; 
+    height: 126px; 
+    left: 473px; 
+    top: 2446px; 
+    background: var(--yellow-color); 
+    border-radius: 18px
+}
+
+.MessageRec{
+    width: 1321px; 
+    height: 422px; 
+    left: 50px; 
+    top: 1994px; 
+    position: absolute; 
+    background: var(--lightpurple-color); 
+    border-radius: 64px
+}
+
+.SubjectRec{
+    position: absolute; 
+    width: 424px; 
+    height: 126px; 
+    left: 473px; 
+    top: 2446px; 
+    background: var(--yellow-color); 
+    border-radius: 18px
+}
+
+.SubmitTxt{
+    width: 170px; 
+    height: 100px; 
+    left: 60px; 
+    top: 1859px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 70px; 
+    font-family: ByteBounce; 
+    font-style: normal;
+    font-weight: 500; 
+    line-height: 105px; 
+    word-wrap: break-word"
+}
+.NameTxt{
+   width: 138px; 
+   height: 100px; 
+   left: 250px; 
+   top: 124px; 
+   position: absolute; 
+   text-align: center; 
+   color: black; 
+   font-size: 70px; 
+   font-family: "Orange Kid"; 
+   font-weight: 400; 
+   line-height: 105px; 
+   word-wrap: break-word
+}
+.SubjectTxt{
+    width: 142px; 
+    height: 78px; 
+    left: 614px; 
+    top: 276px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 50px; 
+    font-family: "Orange Kid"; 
+    font-weight: 400; 
+    line-height: 75px; 
+    word-wrap: break-word"
+}
+.MessageTxt{
+    width: 170px; 
+    height: 77px; 
+    left: 600px; 
+    top: 573px;
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 40px; 
+    font-family: "Orange Kid"; 
+    font-weight: 400; 
+    line-height: 60px; 
+    word-wrap: break-word"
+    }
+.EmailTxt{
+    width: 127px; 
+    height: 100px; 
+    left: 967px; 
+    top: 127px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 70px; 
+    font-family: "Orange Kid"; 
+    font-weight: 400; 
+    line-height: 105px; 
+    word-wrap: break-word"
+}
+
+
+.background{
+    background: #242424;
+    height: 8000px;
+    display: flex;
+}
+
+
+
+
+
+                    /*IMAGE CORRECTIONS*/
+/*Profile Picture Scale Down.*/
+/*the light icon isn't working anymore
